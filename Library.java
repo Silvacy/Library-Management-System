@@ -137,7 +137,7 @@ public class Library {
                             quantities[i] += quantity; // Increase the quantity of the book in the library
                             found = true;
 
-                            System.out.println("Book returned successfully.");
+                            System.out.println("\nBook returned successfully.");
                     
                         }
                     }
