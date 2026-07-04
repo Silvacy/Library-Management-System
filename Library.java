@@ -87,10 +87,10 @@ public class Library {
                     }    
                 }
                 else if (option == 3) {
-                    System.out.println("\nEnter the title of the book you want to borrow: ");
+                    System.out.print("\nEnter the title of the book you want to borrow: ");
                     String title = input.nextLine();
 
-                    System.out.println("\nEnter the quantity of the book you want to borrow: ");
+                    System.out.print("\nEnter the quantity of the book you want to borrow: ");
                     int quantity = input.nextInt();
                     input.nextLine();
 
@@ -110,7 +110,6 @@ public class Library {
                                 else {
                                     System.out.println("\n" + quantity + " books borrowed successfully.");
                                 }
-                                System.out.println("\nBook borrowed successfully.");
                             }
                             else {
                                 System.out.println("\nNot enough copies available.");
@@ -122,10 +121,10 @@ public class Library {
                     }
                 }
                 else if (option == 4) {
-                    System.out.println("\nEnter the title of the book you want to return: ");
+                    System.out.print("\nEnter the title of the book you want to return: ");
                     String title = input.nextLine();
 
-                    System.out.println("\nEnter the quantity of the book you want to return: ");
+                    System.out.print("\nEnter the quantity of the book you want to return: ");
                     int quantity = input.nextInt();
                     input.nextLine();
 
